@@ -1,51 +1,39 @@
-var obj = {
-    "first_name": "Aayush",
-    "last_name": "Sinha",
-    "email": "aayush.aryan@me.com",
-    "website": "sdfhsdhfjds",
-    "k": "This is Key K's value",
-    "students": [
-	{
-	    "name": "Name 1",
-	    "marks": 1
-	},
-	{
-	    "name": "Name 2",
-	    "marks": 54
-	},
-	{
-	    "name": "Name 3",
-	    "marks": 44
-	},
-	{
-	    "name": "Name 4",
-	    "marks": 3
-	},
-	{
-	    "name": "Name 5",
-	    "marks": 5
-	},
-        {
-	    "name": "Name 6",
-	    "marks": 23
-	},
-    ],
-};
+//Q1 Fibonacci no
 
-pass = prompt("Enter marks");
-pass = parseInt(pass)
-
-len = obj.students.length
-
-var passed_stu = [];
-
-for (i=0; i<len; i++){
-    new1 = obj.students[i];
-    
-    if(new1["marks"] >= pass){
-        passed_stu.push(new1["name"]);
-    }
-
+var a=prompt("enter the number");
+ a=parseInt(a);
+let n1=0,n2=1,n3=2;
+   for(i=1;i<a;i++)
+{
+  console.log(n1);
+   n3=n1+n2;
+   n1=n2;
+   n2=n3;
 }
 
-console.log(passed_stu);
+
+
+
+//Q2.prime no
+
+
+  n=parseInt(prompt("Enter a number"));
+
+  for(j=2;j<=n;j++){
+      let p =1;
+       let i =2;
+
+     while(i<j){
+      if(parseInt(j % i)==0){
+      p=0;
+  break;
+ }
+  i++;
+}
+
+ if(p==1){
+
+    console.log("number is prime:"+j);
+  }
+}
+

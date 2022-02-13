@@ -1,5 +1,6 @@
 
-https://nikhilnew.github.io/To-do.github.io/
+
+https://yasmin90-web.github.io/8feb.Assignment2/
 
 
-https://nikhilnew.github.io/Addmission.github.io/
+https://yasmin90-web.github.io/8feb.assignment.addmision/
